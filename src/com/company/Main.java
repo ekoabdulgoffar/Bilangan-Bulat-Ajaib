@@ -15,7 +15,7 @@ public class Main {
             if (angka >= 1 && angka <= 100) { // kondisi hanya angka bulat positif 1 - 100
                 if (angka % 2 != 0) {
                     System.out.println("AJAIB");
-                } else if (angka % 2 == 0 && angka >= 2 && angka <= 5 | angka >= 20) {
+                } else if (angka % 2 == 0 && angka >= 2 && angka <= 5 | angka > 20) {
                     System.out.println("Tidak AJAIB");
                 } else if (angka % 2 == 0 && angka >= 6 && angka <= 20) {
                     System.out.println("AJAIB");
